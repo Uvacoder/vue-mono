@@ -1,0 +1,31 @@
+{
+  "name": "hnayan",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A mono repo for some vue projects",
+  "scripts": {
+    "dev:hacker": "pnpm run -F @hnayan/hacker-news dev",
+    "build:hacker": "pnpm run -F @hnayan/hacker-news build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "pinia": "^2.0.22",
+    "vue": "^3.2.37",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.27.0",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "autoprefixer": "^10.4.12",
+    "eslint": "^8.23.1",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vue-tsc": "^0.40.4"
+  },
+  "author": "hnayan",
+  "license": "MIT"
+}

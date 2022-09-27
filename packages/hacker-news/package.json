@@ -1,0 +1,25 @@
+{
+  "name": "@hnayan/hacker-news",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Simple page show hacker news",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@formkit/auto-animate": "1.0.0-beta.3",
+    "async-es": "^3.2.4",
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.1.111",
+    "@types/node": "^18.7.18",
+    "@vue/compiler-sfc": "^3.2.39",
+    "path": "^0.12.7",
+    "unplugin-icons": "^0.14.10"
+  },
+  "license": "MIT"
+}
