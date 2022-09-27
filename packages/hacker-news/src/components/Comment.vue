@@ -7,7 +7,7 @@ defineProps<{
 </script>
 
 <template>
-  <div v-if="comment" class="mt-2 p-2 border-2 shadow-md rounded-md">
+  <div v-if="comment && comment.text && comment.by" class="mt-2 p-2 border-2 shadow-md rounded-md">
     <div v-html="comment.text" />
     <div class="flex justify-end">
       By {{ comment.by }}, at {{ comment.time
